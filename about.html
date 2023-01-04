@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>About Me</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid align-items-start">
+            <a href="index.html" class="navbar-brand"><img src="images/Portfolio Logo (htmlcss)2.jpg" alt="Logo reading "Full-Stack Student Kati McConaghy" class="img-fluid brand-img"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-right ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navDropdown" data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="hobbies.html" class="dropdown-item me-0 pe-0">Hobbies</a></li>
+                            <li><a href="interests.html" class="dropdown-item me-0 pe-0">Intrests</a></li>
+                            <li><a href="about.html" class="dropdown-item me-0 pe-0">About Me</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-5"><a href="https://github.com/kmcc079" class="nav-link">GitHub</a></li>
+                    <li class="nav-item ms-5"><a href="https://www.codewars.com/users/kmcc079" class="nav-link">Codewars</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section>
+        <div>
+            <img src="images/about_me_hero.png" alt="Photo of a multi-color brick wall outside" class="hero img-fluid">
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <section class="container-fluid about pb-2">
+            <h1 class="about">A little about me...</h1>
+    </section>
+
+    <section class="container-fluid pt-2 pb-2 about">
+        <div class="row">   
+            <p class="aboutP">I've had a few careers throughout my life - from HVAC/R Technician, to retail and sales, to Title Transaction Coordinator - but it wasn't until I came across Software Engineering that I feel like I may have finally found the perfect hybird of logic, troublshooting, and creativity.</p>
+        </div>
+        <div class="row about pb-3">
+            <div class="col-lg-4">
+                <img src="images/stump-grinding.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4">
+                <p class="aboutP2">Aside from my job history, I'm constanty getting my hands into and trying new things. It's not uncommon to find me doing the odd fix-it job around the house or kniting my boyfriend a new hat for winter!</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="images/welding.JPG" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <p class="aboutP">And though I have many hobbies and interests, the most important things to me are my family, friends, and fur babies. Whether surrounded by my dogs and cats, or hanging out by a bonfire with the people I care about most, that's where you'll see me happiest :).</p>
+        </div>
+        <div class="row-col-lg-12 pb-5">
+            <img src="images/dogs-in-the-snow.jpg" alt="Photo of two dogs playing in the snow beneath an Evergreen Tree" class="img-fluid aboutImg">
+        </div>
+    </section>
+
+    <!-- Form-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 form pb-5">
+                <h2>Guess my Horoscope!</h2>
+                <p class="aboutP">Now that you've gotten to know me a little, let's see if you can guess my sign ~</p>
+                <form action="/action_page.php">
+                    <label for="signs" class="aboutP2">Choose a sign:</label>
+                    <select id="signs" name="signs" class="aboutP2">
+                        <option value="aries">Aries</option>
+                        <option value="taurus">Taurus</option>
+                        <option value="gemini">Gemini</option>
+                        <option value="cancer">Cancer</option>
+                        <option value="leo">Leo</option>
+                        <option value="virgo">Virgo</option>
+                        <option value="libra">Libra</option>
+                        <option value="scorpio">Scorpio</option>
+                        <option value="sagittarius">Sagittarius</option>
+                        <option value="capricorn">Capricorn</option>
+                        <option value="aquarius">Aquarius</option>
+                        <option value="pisces">Pisces</option>
+                    </select>
+                    <input type="submit" class="aboutP">
+                </form>
+            </div>
+            <!-- <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Contact Me:</h3>
+                        <p class="tiny">kmcc079@gmail.com</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="container-fluid footer pt-2">
+        <p class="footer">&copy Kati McConaghy 2022. All photos are my own, the property of Nasa.gov, or for public use.</p>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
